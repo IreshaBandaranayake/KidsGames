@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:gap="http://phonegap.com/ns/2.0"
+		id="com.ireshabke.KidsGameHelp"
+		versionCode="11" 
+		version="2.0.0">
+
+    <name>KidsHelp</name>
+    <description>
+        Kids Games Selection App.
+    </description>
+    <author email="ireshabke@gmail.com" href="http://iresgamehelp.com">
+        Iresha Bandaranayake
+    </author>
+	<gap:plugin name="cordova-plugin-sms" source="npm" />
+	
+    <icon src="icons/logo.jpg" />
+      <allow-intent href="http://*/*" />
+	  <allow-intent href="" />
+	  <allow-intent href="tel:*" />
+	  <allow-intent href="sms:*" />
+	  <allow-intent href="mailto:*" />
+	  <allow-intent href="geo:*" />
+
+    <content src="index.html" />
+    <access origin="*" />
+
+</widget>
